@@ -1,0 +1,154 @@
+body {
+  background-color: #efefef;
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+}
+
+h1,h2,h3,h4,h5 {
+  margin: 0 0 10px 0;
+  padding: 0;
+}
+
+.container {
+  width: 920px;
+  margin: 0 auto;
+  }
+
+.header-title-area {
+  padding: 35px;
+  background-color: white;
+}
+
+.logo {
+  font-size: 35px;
+  font-family: 'MS Sans Serif';
+  text-align: center;
+}
+
+.header-navigation {
+  margin: 0;
+  padding: 20px 0;
+  background-color: black;
+}
+
+.header-navigation::after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.header-navigation li {
+  float: left;
+  text-align: center;
+  list-style-type: none;
+  padding: 0 30px;
+}
+
+.header-navigation li a {
+  text-decoration: none;
+  color: white;
+}
+
+.left-contents {
+ width: 600px;
+ margin-right: 20px;
+ float: left;
+}
+
+.right-contents {
+  width: 300px;
+  float: left;
+}
+
+.right-contents:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.blog {
+  float: left;
+  margin-bottom: 20px;
+}
+
+.blog:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.blog-photo {
+  margin: 0 10px 0 30px;
+  width: 150px;
+  height: 150px;
+  float: left;
+  border: 3px solid grey;
+}
+
+.blog-day {
+  margin: 5px auto;
+}
+
+.blog-title {
+  color: blue;
+  font-size:19px;
+  line-height: 1.3;
+  margin-bottom: 10px;
+}
+
+.blog-come {
+  color: gray;
+  font-size: 11px;
+  line-height: 1.7;
+  margin: 0;
+}
+
+.main {
+  background-color: white;
+  padding-top: 35px;
+  height: 600px;
+  border-bottom: solid 2px gray;
+}
+
+.new-photo {
+  width: 35px;
+  height: 35px;
+  float: left;
+  border: 3px solid grey;
+}
+
+.new-day {
+  margin: 0 auto;
+  color: gray;
+  font-size: 5px;
+}
+
+.new-title {
+  margin-top: 5px;
+  font-size: 7px;
+  color: blue;
+}
+
+.new {
+  border-bottom: solid 1px silver;
+  margin-right: 40px;
+}
+
+.new-blog {
+  margin-bottom: 10px;
+}
+
+.new-blog:after {
+  clear: both;
+  display: block;
+  content: " ";
+}
+
+.copyright {
+  color: #777;
+  text-align: center;
+  margin: 0;
+  padding: 30px;
+  background-color: white;
+}
